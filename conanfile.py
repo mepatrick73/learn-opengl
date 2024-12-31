@@ -11,6 +11,7 @@ class LearnOpenGLConan(ConanFile):
 
     def requirements(self):
         self.requires("glfw/3.4")
+        self.requires("glad/0.1.36")
 
     def generate(self):
         # Example to set cmake toolchain in the profile
